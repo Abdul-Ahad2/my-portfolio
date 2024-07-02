@@ -4,13 +4,39 @@ export default function About() {
   return (
     <div className="bg-gray-200 h-auto w-full flex items-center justify-center p-1">
       <div className="grid grid-cols-2 gap-1 w-full h-full">
-        <div className="bg-slate-900 text-white rounded-lg w-full h-[85vh] flex items-center justify-center overflow-hidden relative group">
-          <img
-            src="https://images.pexels.com/photos/6499018/pexels-photo-6499018.jpeg?auto=compress&cs=tinysrgb&w=800"
-            alt="Description of image 1"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-black opacity-75 transition-opacity duration-300 ease-in-out group-hover:opacity-35"></div>
+        <div className="grid grid-cols-2 w-full gap-1">
+          <div className="bg-slate-900 text-white rounded-lg w-full aspect-square  flex items-center justify-center overflow-hidden relative group">
+            <img
+              src="https://images.pexels.com/photos/6499018/pexels-photo-6499018.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Description of image 1"
+              className="w-full h-full object-cover object-top"
+            />
+            <div className="absolute inset-0 bg-black opacity-45 transition-opacity duration-300 ease-in-out group-hover:opacity-35"></div>
+          </div>
+          <div className="bg-slate-900 text-white rounded-lg w-full aspect-square  flex items-center justify-center overflow-hidden relative group">
+            <img
+              src="https://images.pexels.com/photos/5380621/pexels-photo-5380621.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Description of image 1"
+              className="w-full h-full object-cover object-top"
+            />
+            <div className="absolute inset-0 bg-black opacity-45 transition-opacity duration-300 ease-in-out group-hover:opacity-35"></div>
+          </div>
+          <div className="bg-slate-900 text-white rounded-lg w-full aspect-square  flex items-center justify-center overflow-hidden relative group">
+            <img
+              src="https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Description of image 1"
+              className="w-full h-full object-cover object-top"
+            />
+            <div className="absolute inset-0 bg-black opacity-45 transition-opacity duration-300 ease-in-out group-hover:opacity-35"></div>
+          </div>
+          <div className="bg-slate-900 text-white rounded-lg w-full aspect-square  flex items-center justify-center overflow-hidden relative group">
+            <img
+              src="https://images.pexels.com/photos/8294549/pexels-photo-8294549.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Description of image 1"
+              className="w-full h-full object-cover object-bottom"
+            />
+            <div className="absolute inset-0 bg-black opacity-45 transition-opacity duration-300 ease-in-out group-hover:opacity-35"></div>
+          </div>
         </div>
         <div className=" text-gray-100 rounded-lg w-full h-full flex items-center justify-center p-16 text-2xl font-thin bg-black">
           <div>
@@ -49,21 +75,73 @@ export default function About() {
             </button>
           </div>
         </div>
-        <div className="bg-slate-900 text-white rounded-lg w-full h-[85vh] flex items-center justify-center overflow-hidden relative group">
-          <img
-            src="https://images.pexels.com/photos/8294549/pexels-photo-8294549.jpeg?auto=compress&cs=tinysrgb&w=800"
-            alt="Description of image 1"
-            className="w-full h-full object-cover object-left-bottom"
-          />
-          <div className="absolute inset-0 bg-black opacity-75 transition-opacity duration-300 ease-in-out group-hover:opacity-35"></div>
+        <div className="grid grid-cols-2 w-full gap-1">
+          <div className="bg-slate-900 text-white rounded-lg w-full aspect-square  flex items-center justify-center overflow-hidden relative group">
+            <img
+              src="https://images.pexels.com/photos/6499018/pexels-photo-6499018.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Description of image 1"
+              className="w-full h-full object-cover object-top"
+            />
+            <div className="absolute inset-0 bg-black opacity-45 transition-opacity duration-300 ease-in-out group-hover:opacity-35"></div>
+          </div>
+          <div className="bg-slate-900 text-white rounded-lg w-full aspect-square  flex items-center justify-center overflow-hidden relative group">
+            <img
+              src="https://images.pexels.com/photos/5380621/pexels-photo-5380621.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Description of image 1"
+              className="w-full h-full object-cover object-top"
+            />
+            <div className="absolute inset-0 bg-black opacity-45 transition-opacity duration-300 ease-in-out group-hover:opacity-35"></div>
+          </div>
+          <div className="bg-slate-900 text-white rounded-lg w-full aspect-square  flex items-center justify-center overflow-hidden relative group">
+            <img
+              src="https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Description of image 1"
+              className="w-full h-full object-cover object-top"
+            />
+            <div className="absolute inset-0 bg-black opacity-45 transition-opacity duration-300 ease-in-out group-hover:opacity-35"></div>
+          </div>
+          <div className="bg-slate-900 text-white rounded-lg w-full aspect-square  flex items-center justify-center overflow-hidden relative group">
+            <img
+              src="https://images.pexels.com/photos/8294549/pexels-photo-8294549.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Description of image 1"
+              className="w-full h-full object-cover object-bottom"
+            />
+            <div className="absolute inset-0 bg-black opacity-45 transition-opacity duration-300 ease-in-out group-hover:opacity-35"></div>
+          </div>
         </div>
-        <div className="bg-slate-900 text-white rounded-lg w-full h-[85vh] flex items-center justify-center overflow-hidden relative group">
-          <img
-            src="https://images.pexels.com/photos/5380621/pexels-photo-5380621.jpeg?auto=compress&cs=tinysrgb&w=800"
-            alt="Description of image 1"
-            className="w-full h-full object-cover object-top"
-          />
-          <div className="absolute inset-0 bg-black opacity-75 transition-opacity duration-300 ease-in-out group-hover:opacity-35"></div>
+        <div className="grid grid-cols-2 w-full gap-1">
+          <div className="bg-slate-900 text-white rounded-lg w-full aspect-square  flex items-center justify-center overflow-hidden relative group">
+            <img
+              src="https://images.pexels.com/photos/6499018/pexels-photo-6499018.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Description of image 1"
+              className="w-full h-full object-cover object-top"
+            />
+            <div className="absolute inset-0 bg-black opacity-45 transition-opacity duration-300 ease-in-out group-hover:opacity-35"></div>
+          </div>
+          <div className="bg-slate-900 text-white rounded-lg w-full aspect-square  flex items-center justify-center overflow-hidden relative group">
+            <img
+              src="https://images.pexels.com/photos/5380621/pexels-photo-5380621.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Description of image 1"
+              className="w-full h-full object-cover object-top"
+            />
+            <div className="absolute inset-0 bg-black opacity-45 transition-opacity duration-300 ease-in-out group-hover:opacity-35"></div>
+          </div>
+          <div className="bg-slate-900 text-white rounded-lg w-full aspect-square  flex items-center justify-center overflow-hidden relative group">
+            <img
+              src="https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Description of image 1"
+              className="w-full h-full object-cover object-top"
+            />
+            <div className="absolute inset-0 bg-black opacity-45 transition-opacity duration-300 ease-in-out group-hover:opacity-35"></div>
+          </div>
+          <div className="bg-slate-900 text-white rounded-lg w-full aspect-square  flex items-center justify-center overflow-hidden relative group">
+            <img
+              src="https://images.pexels.com/photos/8294549/pexels-photo-8294549.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Description of image 1"
+              className="w-full h-full object-cover object-bottom"
+            />
+            <div className="absolute inset-0 bg-black opacity-45 transition-opacity duration-300 ease-in-out group-hover:opacity-35"></div>
+          </div>
         </div>
         <div className=" text-gray-100 rounded-lg w-full h-full flex items-center justify-center p-16 text-2xl font-thin bg-black">
           <div>
